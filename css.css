@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Always';
+    src: url('Always In My Heart.ttf') format('opentype');
+    font-weight: 250%;
+    font-style: normal; 
+    font-size: 20px;
+    text-decoration: white 2px 5px;
+}
+
+
+body{
+    background: linear-gradient(  #ffcbdb ,#f1edef 70% ) ;
+    left: auto;
+    right: auto;
+    text-shadow: white 2px 5px;
+}
+div {
+    font-family: 'Always';
+    
+    place-items: center;    
+    margin: auto;
+  
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    place-content: space-between;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+    flex-basis: 34%;
+   padding: 9%;
+}
+.texto1{
+font-size: 50px;
+}
+.text-center{
+    font-size: 100px;
+}
+.holder1{
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+    margin: 1%;
+}
